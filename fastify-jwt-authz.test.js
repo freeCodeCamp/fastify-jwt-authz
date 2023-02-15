@@ -1,7 +1,6 @@
 'use strict';
 
 var Fastify = require('fastify');
-var request = require('request');
 var jwtAuthz = require('./fastify-jwt-authz');
 
 test('should decorate request instance with jwtAuthz method', async function () {

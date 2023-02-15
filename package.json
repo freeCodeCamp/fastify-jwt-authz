@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "fastify": "^4.13.0",
-    "jest": "^29.4.3",
-    "request": "^2.83.0"
+    "jest": "^29.4.3"
   }
 }
