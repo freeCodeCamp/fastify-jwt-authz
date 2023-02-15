@@ -2,10 +2,10 @@
 
 var fp = require('fastify-plugin')
 
-function fastifyJwtAuthz (fastify, opts, next) {
+function fastifyJwtAuthz (fastify, opts, done) {
   fastify.decorateRequest('jwtAuthz', checkScopes)
 
-  next()
+  done()
 
   function checkScopes (scopes, callback) {
     var request = this
@@ -31,6 +31,6 @@ function fastifyJwtAuthz (fastify, opts, next) {
 }
 
 module.exports = fp(fastifyJwtAuthz, {
-  fastify: '>=1.0.0-rc.1',
+  fastify: '4.x',
   name: 'fastify-jwt-authz'
 })

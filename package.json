@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/Ethan-Arrowood/fastify-jwt-authz#readme",
   "dependencies": {
-    "fastify-plugin": "^0.2.1"
+    "fastify-plugin": "^4.5.0"
   },
   "devDependencies": {
-    "fastify": "^1.1.1",
+    "fastify": "^4.13.0",
     "request": "^2.83.0",
     "standard": "^10.0.3",
     "tap": "^11.0.1"
