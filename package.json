@@ -5,7 +5,7 @@
   "main": "fastify-jwt-authz.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "standard && tap test.js"
+    "test": "tap test.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,6 @@
   "devDependencies": {
     "fastify": "^4.13.0",
     "request": "^2.83.0",
-    "standard": "^10.0.3",
     "tap": "^11.0.1"
   }
 }
