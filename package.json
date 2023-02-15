@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Validate the JWT scope to authorize access to an endpoint for fastify",
   "main": "fastify-jwt-authz.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "standard && tap test.js"
   },
