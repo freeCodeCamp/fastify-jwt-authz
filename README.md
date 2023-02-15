@@ -1,8 +1,6 @@
 # Fastify JWT Authz
 ### Created by Ethan Arrowood
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
-
 `fastifyJWTAuthz` is a fastify plugin for verifying an authenticated `request.user` scope. Registering the plugin binds the `jwtAuthz` method to the fastify `request` instance. See the demo below on how to use the plugin.
 
 ```js
