@@ -1,6 +1,6 @@
 {
-  "name": "fastify-jwt-authz",
-  "version": "0.1.2",
+  "name": "@freecodecamp/fastify-jwt-authz",
+  "version": "1.0.0",
   "description": "Validate the JWT scope to authorize access to an endpoint for fastify",
   "main": "fastify-jwt-authz.js",
   "types": "index.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Ethan-Arrowood/fastify-jwt-authz.git"
+    "url": "git+ssh://git@github.com/freeCodeCamp/fastify-jwt-authz.git"
   },
   "keywords": [
     "fastify",
@@ -21,9 +21,9 @@
   "author": "Ethan Arrowood",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ethan-Arrowood/fastify-jwt-authz/issues"
+    "url": "https://github.com/freeCodeCamp/fastify-jwt-authz/issues"
   },
-  "homepage": "https://github.com/Ethan-Arrowood/fastify-jwt-authz#readme",
+  "homepage": "https://github.com/freeCodeCamp/fastify-jwt-authz#readme",
   "dependencies": {
     "fastify-plugin": "^4.5.0"
   },
