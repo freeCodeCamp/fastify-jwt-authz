@@ -1,7 +1,7 @@
 import { DoneFuncWithErrOrRes, FastifyPluginCallback } from 'fastify';
 
 export interface jwtAuthz {
-  (scopes: string[], callback: DoneFuncWithErrOrRes): Promise<void>;
+  (scopes: string | string[], callback: DoneFuncWithErrOrRes): Promise<void>;
 }
 
 declare module 'fastify' {
